@@ -1,3 +1,5 @@
+> An access point is an application-specific entry point into an EFS file system that makes it easier to manage application access to shared datasets.
+
 Recently, I got a call from one of my customers, saying they were struggling to set up a S3 access point. They wanted to share a large data set across several company accounts, but could not get the permissions to work correctly. After some back and forth, I managed to weed out all the issues. However, we ended up spending much more time than any of us would like to admit.
 To avoid this happening in the future, I decided to write a follow-up, which summarizes main points and caveats regarding the S3 access points permissions.
 
